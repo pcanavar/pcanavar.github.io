@@ -1,0 +1,164 @@
+body {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  background-color: #26272b;
+}
+
+/*
+Header
+*/
+
+.header {
+  background-color: #26272b;
+  color: white;
+  white-space: nowrap;
+  text-align: center;
+  width: 100%;
+}
+
+.header .navigation {
+  display: flex;
+  justify-content: flex-end;
+  color: #737373;
+}
+
+.header h1 {
+  font-size: 4em;
+  margin-top: 0.3em;
+  margin-bottom: 0.8em;
+  transition: background-color 0.8s, font-size 1s;
+}
+
+.header a {
+  margin: 1em 1em 0 1em;
+  font-size: 1.8vh;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+}
+.header a:hover,
+.header a:active,
+.header a:focus {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+/*
+Main
+*/
+
+main {
+  padding: 2em 5em;
+  background-color: white;
+  min-height: 70vh;
+  text-align: center;
+}
+main main p {
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 0 5vw;
+}
+main h2.hometitle {
+  font-size: 4em;
+  margin-top: 25vh;
+  margin-bottom: 0.8em;
+}
+
+main img.phil {
+  margin: 3em;
+  height: 30vh;
+  border-radius: 35%;
+  border-style: outset;
+  border-width: thin;
+  transition: border-radius 1s, height 1s;
+}
+
+main img.phil:hover {
+  height: 45vh;
+  border-radius: 20%;
+}
+main button {
+  width: 10vw;
+  margin: 2vw;
+}
+
+main div.list {
+  text-align: left;
+  width: 30vw;
+}
+main .side2side {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+main img.contacts {
+  margin: 3em;
+  height: 8em;
+  transition: border-radius 1s, height 1s;
+}
+
+main img.contacts:hover {
+  height: 9em;
+}
+
+/*
+Footer
+*/
+
+footer {
+  bottom: 0px;
+  position: sticky;
+  width: 100%;
+  background-color: #26272b;
+  text-align: center;
+  padding: 1%;
+  font-size: 15px;
+  line-height: 5px;
+  color: #737373;
+  transition: 1s;
+}
+footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+/*
+body {
+  background-color: #26272b;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.navigation {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+.header a {
+  color: inherit;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.header h1 {
+  font-size: 5vh;
+  margin-top: 2vh;
+  margin-bottom: 5vh;
+}
+
+main {
+  min-height: 75vh;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: black;
+  background-color: white;
+}
+
+*/
