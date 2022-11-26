@@ -29,6 +29,7 @@
     <header class="header">
       <div class="navigation">
         <a href="/index.html">Home</a>
+        <a href="/Phil-CV.pdf" download>Curriculum Vitae</a>
         <a href="/about-me.html">About Me</a>
         <a href="/contact.html">Contact</a>
       </div>
@@ -42,17 +43,35 @@
 
       <img class="phil" src="/img/profile.jpg" alt="Profile Picture" />
 
-      <div>
-        <p>
+      <div align="justify">
+        <p> 
           &nbsp&nbsp&nbsp&nbspI am a Mechanical Engineer currently working as a
-          support engineer for a company that produces MRI machines for
-          veterinary use. I am responsible for 1st and 2nd line support; this
-          calls for quick reactions as we are normally dealing with customers
-          that are scanning emergency patients and need fixes in very little
-          time, not only I support external clients but also our own service
-          engineers when a visit is needed.
+          Software Engineer for CoinMode. I am responsible for mostly for our <strong>backend</strong> and <strong>infrastructure</strong>
+          where a few of the core/utilities APIs were completelly developed by me. I am currenlty studying <strong>Kubernetes</strong> for the CKA exam.
+          &nbsp
         </p>
-        <br />
+
+        <p> 
+          &nbsp&nbsp&nbsp&nbspHere is a few of the APIs I am currently working on:
+          <ul>
+            <li><a href="https://api.coinmode.com/docs_all/"><strong>Main API</strong></a> - The CoinMode API,  the onlu one in this list that was not entirely written by me. Currenlty responsible for maintaining and its further development.</li>
+            <li><a href="https://giftcards.coinmode.com/docs"><strong>GiftCards</strong></a> - Completelly independent API that will make giftcards available to buy, will make a cashback available to CoinMode users, has its own SQL database</li>
+            <li><a href="https://discord.coinmode.com/private"><strong>Discord Bot</strong></a> - A Discord Bot that enable users to register and make transfers using Discord, also has a complete backend API to communicate and enable Discord integration with all CoinMode services, has its own Redis Database</li>
+            <li><a href="https://statement.coinmode.com/docs"><strong>Statement Generator</strong></a> - Responsible for generating a transaction report for any account. Available in PDF (Native), CSV, xlsx and html</li>
+            <li><a href="https://tools.coinmode.com/docs/"><strong>Tools</strong></a> - Small internal tools, Although this is a recent one it will contain most of our internal tools.</li>
+          </ul>
+        </p>
+
+        <p>
+          &nbsp&nbsp&nbsp&nbspBeyond dealing with backend development I am also responsible for most of the infrastructure. <br/>
+          &nbsp&nbsp&nbsp&nbspThese responsabilities include:
+          <ul>
+            <li>Updating and mantaining a few of our VPS machines on <strong>Proxmox</strong> and <strong>GCE</strong></li>
+            <li>All of the Kubernetes Clusters, where I was able to fully migrate all services to our new Gitlab managed Kubernetes cluster for both Staging and Production</li>
+            <li>Automated End-To-End tests using Cypress for each deployment on our CI/CD pipelines</li>
+          </ul>
+        </p>
+
         <p>
           &nbsp&nbsp&nbsp&nbspI have always been a tech enthusiast; I started
           building computers since the age of 10. My appreciation for technology
@@ -66,42 +85,8 @@
           my family’s business. I was responsible for implementing and deploying
           the main server (login, files, DNS, DHCP, VPN), 3D printing server,
           PABX, website, maintenance and tracking database, virtual servers,
-          surveillance cameras/alarm, among others IT-related tasks. My current
-          personal project is learning programming though game development, I am
-          currently learning C# and Python on my free time as I believe this
-          will be a great addition to my work skills and has already enabled me
-          to proactively develop .NET software tools that improved response time
-          on support cases reducing downtime for all systems.
+          surveillance cameras/alarm, among others IT-related tasks. 
         </p>
-        <br />
-        <p>
-          &nbsp&nbsp&nbsp&nbspMy first engineering internship was at Ford Motor
-          Company, I started working as an intern in product development in body
-          interior (Instrument Panel/Console). After my first couple of months
-          at Ford I stated taking care of more complex tasks such as leading
-          part design changes and part analysis. That is where I first started
-          working with a CAD software. After almost 2 years I started working
-          with 3D printing and became fascinated with it. I started studying
-          Solidworks and in the last few years I gained excellent working
-          knowledge in developing parts in CAD.
-        </p>
-        <br />
-        <p>
-          &nbsp&nbsp&nbsp&nbspSince then, I designed many custom parts for
-          costumers and for myself, I have helped our BAJA SAE team at
-          university by rebuilding the chassis and helping with FEA simulation.
-          I became a volunteer tutor of Computer-aided design for a semester
-          with regular weekly independent classes (6 hours/week). My final year
-          Project (“An analysis of material robustness under the scope of
-          quality and good practices in FDM PLA 3D print”) involved developing
-          good skills on 3d printing, Solidworks, tensile strength and polymers.
-          I have developed a comparative method between different parameters,
-          relating them with surface quality and tensile strength to promote
-          continuous improvement and optimization of the 3D printing process
-          through Fused Deposition Modelling. Passed with distinction (10 out of
-          10).
-        </p>
-        <br />
       </div>
       <hr class="solid" />
       <br />
@@ -111,14 +96,24 @@
           <br />
           <div style="margin: 0 6vw">
             <ul>
-              <li>Computer system troubleshooting</li>
+              <li>Node.JS</li>
+              <li>JavaScript</li>
+              <li>Kubernetes (Trained by Google Academy London)</li>
+              <li>CI/CD</li>
+              <li>MySQL</li>
+              <li>Redis / Memcached</li>
+              <li>Google Cloud (GCE & GKE)</li>
+              <li>Git</li>
+              <li>Cypress/Jest</li>
+              <li>Docker</li>
+              <li>Gitlab</li>
+              <li>API Development</li>
+              <li>Microsoft Visual Studio</li>
+              <li>.Net/.Net Core</li>
+              <li>WPF XAML</li>
+              <li>Six Sigma - Green Belt</li>
               <li>Rapid-prototyping techniques (FDM)</li>
               <li>CAD/CAE software (Solidworks)</li>
-              <li>.Net C#</li>
-              <li>WPF XAML</li>
-              <li>SQL</li>
-              <li>Microsoft Visual Studio</li>
-              <li>Six Sigma - Green Belt Training</li>
             </ul>
           </div>
         </div>
@@ -128,11 +123,8 @@
           <ul>
             <li>
               Recognized by management for proactive behaviors, leading to
-              improved workflows.
-            </li>
-            <li>
-              Awarded for demonstrating extra effort beyond established
-              objectives for B515 MCA cost work.
+              improved workflows. Awarded for demonstrating extra effort beyond established
+              objectives for Ford Ecosport MCA cost work.
             </li>
             <li>
               Passed with distinction (10 out of 10) on university final year
@@ -157,7 +149,7 @@
     <footer>
       <div>
         <p></p>
-        <p>Copyrights &copy; 2021 Philippe Canavarro.</p>
+        <p>Copyrights &copy; 2022 Philippe Canavarro.</p>
         <p>All Rights Reserved.</p>
       </div>
     </footer>
