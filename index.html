@@ -9,7 +9,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
-    <script type="module" crossorigin src="/assets/index-DBVamSoA.js"></script>
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('locale');
+          if (saved === 'pt-BR' || saved === 'en') { window.__LOCALE__ = saved; return; }
+        } catch (e) {}
+        window.__LOCALE__ = (navigator.language || '').startsWith('pt') ? 'pt-BR' : 'en';
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-DNpML7y3.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-Jb2TqOQL.css">
   </head>
   <body>
