@@ -23,7 +23,7 @@ button.ghost{background:#16263a;border:1px solid #2c4a6e;color:#cdd9e8}
 footer{margin-top:14px;color:#7e93ab;font-size:.8em;text-align:center;max-width:780px}
 kbd{background:#16263a;border:1px solid #2c4a6e;border-radius:5px;padding:1px 6px;font-size:.85em}
 </style></head><body>
-<span aria-label="Te Amo" style="position:fixed;bottom:1.5rem;right:1.5rem;z-index:9999;color:#ff0000;font-weight:700;font-size:4rem;pointer-events:none;text-shadow:0 2px 8px rgba(0,0,0,0.4);text-align:right;white-space:nowrap">Acredito em vc<br>Te Amo ❤️</span>
+<span id="love-msg" aria-label="Mensagem" style="position:fixed;bottom:1.25rem;right:1.25rem;z-index:9999;color:rgba(214,120,135,.6);font-weight:500;font-size:1.05rem;line-height:1.3;max-width:240px;pointer-events:none;text-shadow:0 1px 2px rgba(0,0,0,0.15);text-align:right;transition:opacity .5s ease"></span>
 <header>
   <a href="/cid/index.html" class="ghost" style="text-decoration:none;display:inline-flex;align-items:center;padding:7px 12px;border-radius:8px;background:#16263a;border:1px solid #2c4a6e;color:#cdd9e8">← Materiais</a>
   <h1>Flashcards — Nefrologia</h1>
@@ -79,4 +79,6 @@ document.addEventListener('keydown', e => {
   else if(e.key==='ArrowLeft') go(-1);
 });
 render();
-</script></body></html>
+</script>
+<script src="/cid/love.js"></script>
+</body></html>
